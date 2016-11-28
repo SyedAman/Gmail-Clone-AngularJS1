@@ -1,0 +1,23 @@
+{
+  "name": "gmail-clone-angularjs1",
+  "version": "1.0.0",
+  "description": "Simple email application using core AngularJS1 concepts. Read emails, search by subject line, and read / delete emails.",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.6.0-rc.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SyedAman/Gmail-Clone-AngularJS1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SyedAman/Gmail-Clone-AngularJS1/issues"
+  },
+  "homepage": "https://github.com/SyedAman/Gmail-Clone-AngularJS1#readme"
+}

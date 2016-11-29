@@ -23,4 +23,8 @@ app.config(function ($routeProvider) {
             controller: 'EmailController',
             controllerAs: 'email'
         })
+        // default view redirection
+        .otherwise({
+            redirectTo: '/inbox'
+        })
 });

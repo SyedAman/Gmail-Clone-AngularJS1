@@ -1,4 +1,4 @@
-// InboxController script
+// Controller: InboxController
 app.controller('InboxController', function($scope) {
     // Model and View bindings
     // Small helper functions not needed elsewhere

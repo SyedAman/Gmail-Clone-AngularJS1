@@ -4,7 +4,8 @@
   "description": "Simple email application using core AngularJS1 concepts. Read emails, search by subject line, and read / delete emails.",
   "main": "index.js",
   "dependencies": {
-    "angular": "1.2.22",
+    "angular": "1.2.32",
+    "angular-route": "1.2.32",
     "jquery": "1.11.1"
   },
   "devDependencies": {},

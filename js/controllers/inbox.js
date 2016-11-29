@@ -5,4 +5,5 @@ app.controller('InboxController', function($scope) {
 
     // Initialize title property to an array for view to use
     $scope.title = 'Write a title here...';
+    console.log('Inbox Loaded!');
 });

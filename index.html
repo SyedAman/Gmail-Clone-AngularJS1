@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html ng-app="gmail-clone-app">
+<html ng-app>
     <!-- Inside gmail-clone-app's scope -->
     <head>
+        <meta charset="UTF-8">
         <title>Gmail Clone</title>
     </head>
     <body>
@@ -12,15 +13,15 @@
         </div>
 
         <!-- Import JQuery -->
-        <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="./node_modules/jquery/dist/jquery.js"></script>
         <!-- Import AngularJS 1-->
-        <script src="./node_modules/angular/angular.min.js"></script>
+        <script src="./node_modules/angular/lib/angular.js"></script>
 
         <!-- InboxController script -->
         <script>
             function InboxController($scope){
                 $scope.title = 'Write a title here...';
-            };
+            }
         </script>
     </body>
 </html>

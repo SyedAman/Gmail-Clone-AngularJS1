@@ -3,11 +3,6 @@ var app = angular.module('gmail-clone-app', [
     'ngRoute'
 ]);
 
-// InboxController script
-function InboxController($scope){
-    $scope.title = 'Write a title here...';
-};
-
 // Configure $routeProvider
 app.config(function ($routeProvider) {
     $routeProvider
@@ -28,8 +23,3 @@ app.config(function ($routeProvider) {
             redirectTo: '/inbox'
         });
 });
-
-app.controller('InboxController', function() {
-    // Model and View bindings
-    // Small helper functions not needed elsewhere
-})

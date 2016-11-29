@@ -10,5 +10,10 @@ function InboxController($scope){
 
 // Configure $routeProvider
 app.config(function ($routeProvider) {
-    // $routeProvider config
+    $routeProvider
+        .when('/inbox', {
+            templateUrl: 'views/inbox.html',
+            controller: 'InboxController',
+            controllerAs: 'inbox'
+        })
 });

@@ -7,3 +7,8 @@ var app = angular.module('gmail-clone-app', [
 function InboxController($scope){
     $scope.title = 'Write a title here...';
 };
+
+// Configure $routeProvider
+app.config(function ($routeProvider) {
+    // $routeProvider config
+});

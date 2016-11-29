@@ -28,3 +28,8 @@ app.config(function ($routeProvider) {
             redirectTo: '/inbox'
         });
 });
+
+app.controller('InboxController', function() {
+    // Model and View bindings
+    // Small helper functions not needed elsewhere
+})

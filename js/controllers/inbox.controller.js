@@ -8,7 +8,7 @@ app.controller('InboxController', function($scope) {
     // define meta properties under InboxController scope
     $scope.meta = {
         // Initialize title property to an array for view to use
-        title: 'Write a title here...'
+        title: 'Type your name...'
     }
     // Log to console upon load
     console.log('Inbox Loaded!');

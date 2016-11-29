@@ -26,5 +26,5 @@ app.config(function ($routeProvider) {
         // default view redirection
         .otherwise({
             redirectTo: '/inbox'
-        })
+        });
 });

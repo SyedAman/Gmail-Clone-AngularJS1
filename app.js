@@ -1,5 +1,7 @@
 // Create/set module
-var app = angular.module('gmail-clone-app', []);
+var app = angular.module('gmail-clone-app', [
+    'ngRoute'
+]);
 
 // InboxController script
 function InboxController($scope){
